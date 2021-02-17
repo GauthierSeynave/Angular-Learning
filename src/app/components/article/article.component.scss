@@ -1,0 +1,32 @@
+.article-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 10px;
+}
+.article-titre {
+    height: 15%;
+    text-align: center;
+    font-weight: bold;
+}
+.article-contenu {
+    height: 70%;
+    text-align: start;
+}
+
+.article-footer {
+    height: 15%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.article-date {
+    width: 50%;
+    font-weight: bold;
+}
+
+.article-source {
+    text-align: end;
+    width: 50%;
+    font-style: italic;
+}

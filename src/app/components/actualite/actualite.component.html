@@ -1,16 +1,8 @@
 <div class="actualite-container">
-    <div class="actualite-titre">
-      {{ actualite.titre }}
+    <div class="article-container col">
+        <app-article [article]="actualite.article"></app-article>
     </div>
-    <div class="actualite-contenu">
-        {{ actualite.contenu }}
+    <div class="multimedia-container col">
+        <app-multimedia [multimedia]="actualite.multimedia"></app-multimedia>
     </div>
-    <div class="actualite-footer">
-        <div class="actualite-date">
-            {{ actualite.date | date:'dd/MM/yyyy' }}
-        </div>
-        <div class="actualite-source">
-            <a [href]="actualite.source"> Jeuxvideo.com</a>
-        </div>
-    </div>
-  </div>
+</div>

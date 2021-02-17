@@ -1,3 +1,6 @@
+import { Article } from "./article";
+import { Multimedia } from "./multimedia";
+
 type NewType = string;
 
 /**
@@ -5,32 +8,21 @@ type NewType = string;
  */
 export class Actualite {
 
-    constructor(private _titre: string, private _date: Date, private _source: string, private _contenu: string) {
+    constructor(private _article: Article, private _multimedia: Multimedia) {
 
     }
     
-    public get contenu(): string {
-        return this._contenu;
+    public get article(): Article {
+        return this._article;
     }
-    public set contenu(value: string) {
-        this._contenu = value;
+    public set article(value: Article) {
+        this._article = value;
     }
-    public get date(): Date {
-        return this._date;
+    public get multimedia(): Multimedia {
+        return this._multimedia;
     }
-    public set date(value: Date) {
-        this._date = value;
+    public set multimedia(value: Multimedia) {
+        this._multimedia = value;
     }
-    public get source(): string {
-        return this._source;
-    }
-    public set source(value: string) {
-        this._source = value;
-    }
-    public get titre(): string {
-        return this._titre;
-    }
-    public set titre(value: string) {
-        this._titre = value;
-    }
+   
 }

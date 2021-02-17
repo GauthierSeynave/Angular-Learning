@@ -1,37 +1,11 @@
-.actualite-container {
+.actualite-container {    
     display: flex;
-    flex-direction: column;
-    width: 50%;
+    width: fit-content;
     border: solid 3px #7EFFF5;
+}
+
+.col {
+    
     background-color: #546DE5;
-    padding: 5px;
-}
-.actualite-titre {
-    display: flex;
-    justify-content: center;
-    font-weight: bold;
-}
-.actualite-contenu {
-    display: flex;
-    justify-content: center;
 }
 
-.actualite-footer {
-    display: flex;
-    justify-content: space-between;
-}
-
-.actualite-date {
-    display: flex;
-    flex-direction: row;
-    width: 50%;
-    font-weight: bold;
-}
-
-.actualite-source {
-    display: flex;
-    flex-direction: row-reverse;
-    width: 50%;
-    font-style: italic;
-
-}
