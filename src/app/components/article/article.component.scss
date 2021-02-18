@@ -1,24 +1,26 @@
 .article-container {
-    display: flex;
-    flex-direction: column;
     height: 100%;
-    padding: 10px;
+    padding: 5px;
+    color: #7EFFF5;
 }
 .article-titre {
-    height: 15%;
+    height: 13%;
     text-align: center;
     font-weight: bold;
+    font-size: 22px;
 }
 .article-contenu {
     height: 70%;
     text-align: start;
+    font-size: 16px;
 }
 
 .article-footer {
-    height: 15%;
+    height: 13%;
     display: flex;
-    justify-content: space-around;
+    align-items: flex-end;
 }
+
 
 .article-date {
     width: 50%;

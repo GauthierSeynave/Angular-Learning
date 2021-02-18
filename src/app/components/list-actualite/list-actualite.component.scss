@@ -1,0 +1,16 @@
+.list-actualite-container{
+    border-top-width: 3px;
+    border-top-style: solid;
+    border-color: #002050 ;
+}
+.list-actualite-container:nth-child(0n+1){
+    border: none;
+}
+.list-actualite-container:nth-child(2n+1) {    
+    background-color: #006090;
+}
+
+.list-actualite-container:nth-child(2n) {
+    
+    background-color: #004365;
+}
