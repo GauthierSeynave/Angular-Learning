@@ -1,0 +1,9 @@
+@import'/src/globalscss/color.scss';
+
+.header-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: $bleuFoncee;
+    color: $blanc;
+}
