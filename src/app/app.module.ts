@@ -10,6 +10,8 @@ import { ArticleComponent } from './components/article/article.component';
 import { MultimediaComponent } from './components/multimedia/multimedia.component';
 import { ListMultimediaComponent } from './components/list-multimedia/list-multimedia.component';
 import { ListActualiteComponent } from './components/list-actualite/list-actualite.component';
+import { MenuComponent } from './components/menu/menu.component';
+import { HomeComponent } from './components/home/home.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { ListActualiteComponent } from './components/list-actualite/list-actuali
     ArticleComponent,
     MultimediaComponent,
     ListMultimediaComponent,
-    ListActualiteComponent
+    ListActualiteComponent,
+    MenuComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
